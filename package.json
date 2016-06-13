@@ -1,0 +1,28 @@
+{
+  "name": "andreessenhoroscopes-sync",
+  "description": "Grab new tweets and add to andressenhoroscopes.com.",
+  "version": "0.0.1",
+  "author": "Andy Jiang",
+  "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lambtron/andressenhoroscopes-sync"
+  },
+  "engines": {
+    "node": "4.0.x",
+    "npm": "2.14.2"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "co": "^4.6.0",
+    "co-monk": "^1.0.0",
+    "cron": "^1.1.0",
+    "github": "^1.1.2",
+    "lodash": "^4.11.1",
+    "mongodb": "^1.4.40",
+    "monk": "^1.0.1",
+    "superagent": "^2.0.0",
+    "thunkify-wrap": "^1.0.4",
+    "twitter": "^1.2.5"
+  }
+}
